@@ -10,5 +10,5 @@ android-support-v4.jar
 androidwear-1.0.0.jar (created manually by extracting classes from the .aar file *)
 
 
-* see http://stackoverflow.com/questions/24520240/import-android-support-wearable-cannot-be-resolved
-* 
+ *see http://stackoverflow.com/questions/24520240/import-android-support-wearable-cannot-be-resolved
+ 
