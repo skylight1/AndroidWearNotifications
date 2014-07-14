@@ -61,3 +61,12 @@ There is also now a Wearable component for the watch (hence target API 20) with 
             new AnimatedDisplayIntentPreset(),
             new ContentIconPreset()
     };
+    
+For information on manually packaging the Wearbable apk inside the Application apk:
+
+https://developer.android.com/training/wearables/apps/packaging.html
+
+
+Note in Eclipse you'll need to do this (you'll have 2 projects) in AS (Android Studio) you don't need to unless you have prepaid apps - the workaround at this time is here:
+
+http://android-developers.blogspot.com/2014/07/update-on-android-wear-paid-apps.html
