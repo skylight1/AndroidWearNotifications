@@ -19,7 +19,7 @@ androidwear-1.0.0.jar (created manually by extracting classes from the .aar file
  For those just starting out, use the new official SDK sample code.
  
  The official replacement project is available in the SDK samples for API Level 20:
- samples/andoird-20/wearable/Notifications
+ samples/android-20/wearable/Notifications
  
  Here's what's different (notice new presets and one removed preset the BigActionNotification):
  
