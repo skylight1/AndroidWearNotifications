@@ -14,14 +14,12 @@ androidwear-1.0.0.jar (created manually by extracting classes from the .aar file
  
  Note: this targets API Level 19 instead of 20 as there isn't a Wearable component.
  
- Note: this project is an excercise for those who studied the earlier Android Wear Preview APIs
- 
- For those just starting out, use the new official SDK sample code.
+ Note: this project is an excercise for those who studied the earlier Android Wear Preview APIs so for those just starting out, use the new official SDK sample code.
  
  The official replacement project is available in the SDK samples for API Level 20:
  samples/android-20/wearable/Notifications
  
- Here's what's different (notice new presets and one removed preset the BigActionNotification):
+ Here's what's different (notice new presets and one removed preset: BigActionNotification):
  
  NotificationPresets.java from AndroidWearPreview:
  
@@ -67,6 +65,6 @@ For information on manually packaging the Wearbable apk inside the Application a
 https://developer.android.com/training/wearables/apps/packaging.html
 
 
-Note in Eclipse you'll need to do manually do this (you'll have 2 projects) in AS (Android Studio) you don't need to unless you have prepaid apps - the workaround at this time is here:
+Note in Eclipse you'll need to do this manually (as you'll have 2 projects) in AS (Android Studio) you don't need to unless you require a paid app - the workaround at this time is here:
 
 http://android-developers.blogspot.com/2014/07/update-on-android-wear-paid-apps.html
