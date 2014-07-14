@@ -50,3 +50,14 @@ Updated NotificationPresets.java from AndroidWear 1.0.0:
             MULTIPLE_PAGE,
             BUNDLE
     };
+
+There is also now a Wearable component for the watch (hence target API 20) with the following presets support:
+
+    public static final NotificationPreset[] PRESETS = new NotificationPreset[] {
+            new BasicPreset(),
+            new StylizedTextPreset(),
+            new DisplayIntentPreset(),
+            new MultiSizeDisplayIntentPreset(),
+            new AnimatedDisplayIntentPreset(),
+            new ContentIconPreset()
+    };
