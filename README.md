@@ -14,3 +14,37 @@ androidwear-1.0.0.jar (created manually by extracting classes from the .aar file
  
  Note: this targets API Level 19 instead of 20 as there isn't a Wearable component.
  
+ Note: this project is an excercise for those who studied the earlier Android Wear Preview APIs
+ 
+ For those just starting out, use the new official SDK sample code.
+ 
+ The official replacement project is available in the SDK samples for API Level 20:
+ samples/andoird-20/wearable/Notifications
+ 
+ Here's what's different (notice new presets and one removed preset the BigActionNotification):
+ 
+ NotificationPresets.java from AndroidWearPreview:
+     public static final NotificationPreset[] PRESETS = new NotificationPreset[] {
+            new BasicNotificationPreset(),
+            new InboxNotificationPreset(),
+            new BigPictureNotificationPreset(),
+            new BigTextNotificationPreset(),
+            new BigActionNotificationPreset(),
+            new MultiplePageNotificationPreset(),
+            new NotificationBundlePreset()
+    };
+    
+Updated NotificationPresets.java from AndroidWear 1.0.0:
+    public static final NotificationPreset[] PRESETS = new NotificationPreset[] {
+            BASIC,
+            STYLIZED_TEXT,
+            INBOX,
+            BIG_PICTURE,
+            BIG_TEXT,
+            BOTTOM_ALIGNED,
+            GRAVITY,
+            CONTENT_ACTION,
+            CONTENT_ICON,
+            MULTIPLE_PAGE,
+            BUNDLE
+    };
