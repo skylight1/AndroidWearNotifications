@@ -3,7 +3,7 @@ AndroidWearNotifications
 
 This is the WearablesNotificationSample for the Android Wear Preview ported to Android Wear 1.0
 
-This is Eclipse compatible but requires the following jars to be places in the libs folder:
+This is an Eclipse compatible but requires the following jars to be places in the libs folder:
 
 android-support-v4.jar (right click on project -> Android Tools -> Add Support Library...)
 
