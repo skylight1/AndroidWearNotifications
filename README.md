@@ -24,6 +24,7 @@ androidwear-1.0.0.jar (created manually by extracting classes from the .aar file
  Here's what's different (notice new presets and one removed preset the BigActionNotification):
  
  NotificationPresets.java from AndroidWearPreview:
+ 
      public static final NotificationPreset[] PRESETS = new NotificationPreset[] {
             new BasicNotificationPreset(),
             new InboxNotificationPreset(),
@@ -35,6 +36,7 @@ androidwear-1.0.0.jar (created manually by extracting classes from the .aar file
     };
     
 Updated NotificationPresets.java from AndroidWear 1.0.0:
+ 
     public static final NotificationPreset[] PRESETS = new NotificationPreset[] {
             BASIC,
             STYLIZED_TEXT,
