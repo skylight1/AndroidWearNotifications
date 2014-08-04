@@ -65,9 +65,13 @@ For information on manually packaging the Wearbable apk inside the Application a
 https://developer.android.com/training/wearables/apps/packaging.html
 
 
-Note in Eclipse you'll need to do this manually (as you'll have 2 projects) in AS (Android Studio) you don't need to unless you require a paid app - the workaround at this time is here:
+Note in Eclipse you'll need to do this manually (as you'll have 2 projects) in AS (Android Studio) you don't need to unless you require a paid app - the workaround for the paid app issue at this time is here:
 
 http://android-developers.blogspot.com/2014/07/update-on-android-wear-paid-apps.html
 
-Note re: workaround: it's better to include resources and not just a jar file, so instead make all the contents of the aar file an Android Library (mark it as such in Eclipse) and add that lib project dependency to your wear project.
+The workaround for Eclipse is here:
+
+http://stackoverflow.com/questions/24520240/import-android-support-wearable-cannot-be-resolved
+
+However it's better to include resources as well as the classes, so instead make all the contents of the aar file an Android Library (mark it as such in Eclipse) and add that lib project dependency to your wear project.
 
